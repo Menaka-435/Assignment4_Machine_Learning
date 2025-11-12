@@ -42,7 +42,7 @@ Each answer is provided clearly and concisely in the report.
 ## 💻 Part C – Coding Tasks
 
 ### 🧠 Q1. Text Preprocessing with Lemmatization
-**File:** `token_lemmatization.py`
+**File:** `q1_nlp_nltk.py`
 
 **Goal:**  
 Perform tokenization, stopword removal, lemmatization, and POS tagging on a sentence.  
@@ -79,7 +79,7 @@ library | library | NN |
 ---
 
 ### 🤖 Q2. Named Entity Recognition (NER) & Pronoun Ambiguity
-**File:** `ner_coref.py`
+**File:** `q2_ner_coref.py`
 
 **Goal:**  
 Detect named entities and warn if pronoun ambiguity is found.
@@ -127,10 +127,10 @@ python -m spacy download en_core_web_sm
 ## ▶ How to Run
 **Run Q1:**
 ```bash
-python token_lemmatization.py
+python q1_nlp_nltk.py
 ```
 
 **Run Q2:**
 ```bash
-python ner_coref.py
+python q2_ner_coref.py
 ```
